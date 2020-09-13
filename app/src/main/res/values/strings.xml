@@ -11,4 +11,8 @@
     <string name="men">Men</string>
     <string name="women">Women</string>
     <string name="co_ed">Co-ed</string>
+    <string name="i_am_a">I am a</string>
+    <string name="beginner">Beginner</string>
+    <string name="baller">Baller</string>
+    <string name="finish">FINISH</string>
 </resources>
