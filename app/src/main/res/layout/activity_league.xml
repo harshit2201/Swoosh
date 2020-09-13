@@ -53,6 +53,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button2"
         android:fontFamily="@font/montserrat"
+        android:onClick="leagueNextClicked"
         android:text="@string/next"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
@@ -73,11 +74,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <ToggleButton
-            android:id="@+id/toggleButton"
+            android:id="@+id/menLeagueButton"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
+            android:onClick="onMenClicked"
             android:text="@string/men"
             android:textColor="@color/colorAccent"
             android:textOff="@string/men"
@@ -85,13 +87,14 @@
             android:textSize="18sp" />
 
         <ToggleButton
-            android:id="@+id/toggleButton2"
+            android:id="@+id/womenLeagueButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
+            android:onClick="onWomenClicked"
             android:text="@string/women"
             android:textColor="@color/colorAccent"
             android:textOff="@string/women"
@@ -99,11 +102,12 @@
             android:textSize="18sp" />
 
         <ToggleButton
-            android:id="@+id/toggleButton3"
+            android:id="@+id/coedLeagueButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
+            android:onClick="onCoedClicked"
             android:text="@string/co_ed"
             android:textColor="@color/colorAccent"
             android:textOff="@string/co_ed"
